@@ -1,74 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b0bfeb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+        .login-container {
+            background-color: #3573b2;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        .login-container h2 {
+            margin-bottom: 30px;
+            color: white;
+        }
+        input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button {
+            width: 60%;
+            padding: 10px;
+            background-color: #aed6f1;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .footer {
+            margin-top: 10px;
+            font-size: 14px;
+            color: white;
+        }
+        .footer a {
+            color: #5dade2;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .register-link {
+            margin-top: 20px;
+        }
+        /* Styling for the fixed footer button */
+        .next-button {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #3573b2;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .next-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
 
-   <html>
- <head>
-  <title>
-   Celine Is Awesome
-  </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
- </head>
- <body class="bg-gray-900 text-white font-roboto">
-  <header class="bg-gray-800 text-yellow-500 py-4">
-   <div class="container mx-auto flex justify-between items-center">
-    <h1 class="text-xl font-bold">
-     Celine Is Awesome
-    </h1>
-    <nav>
-     <ul class="flex space-x-6 text-sm text-gray-300">
-     
-      <li>
-       <a class="hover:text-white" href="login.html">
-        LOGIN
-       </a>
-      </li>
-         <li>
-       <a class="hover:text-white" href="slider.html">
-        SLIDER
-       </a>
-      </li>
- <li>
-       <a class="hover:text-white" href="audio.html">
-        AUDIO
-       </a>
-      </li>
-      <li>
-       <a class="hover:text-white" href="movie.html">
-        MOVIES
-       </a>
-      </li>
-      <li>
-       <a class="hover:text-white" href="surveyform.html">
-        SURVEY
-       </a>
-      </li>
-      
-     </ul>
-    </nav>
-   </div>
-  </header>
-  <main class="relative">
-   <img alt="Mountain landscape with a cloudy sky" class="w-full h-screen object-cover" height="700" src="gitimg.jpg"/>
-   <div class="absolute inset-0 flex flex-col items-center justify-center text-center">
-    <p class="text-lg">
-     Hello Errbody
-    </p>
-    <h2 class="text-5xl font-bold mt-2">
-     YES MEL, AJMAL, CHIEN,
-    </h2>
-    <h2 class="text-5xl font-bold mt-2">
-     JUNNE MAYBE AND
-    </h2>
-    <h2 class="text-5xl font-bold mt-2">
-     SYOK.
-    </h2>
-   </div>
-   <div class="absolute bottom-0 w-full text-center py-4 bg-gray-800 bg-opacity-75">
-    <p class="text-sm">
-     Portfolio Page Using HTML, CSS, and JavaScript
-    </p>
-   </div>
-  </main>
- </body>
+<div class="login-container">
+    <h2>Login</h2>
+    <form action="#" method="POST">
+        <input type="text" name="username" placeholder="Username" required><br>
+        <input type="password" name="password" placeholder="Password" required><br>
+        <button type="submit">Login</button>
+    </form>
+    
+    <div class="register-link">
+        <p>Don't have an account? <a href="#">Register</a></p>
+    </div>
+</div>
+
+
+<a href="movie.html" class="next">NEXT</a>
+
+</body>
 </html>
