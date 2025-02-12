@@ -3,101 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #b0bfeb;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            flex-direction: column;
-        }
-        .login-container {
-            background-color: #3573b2;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
-            width: 300px;
-            text-align: center;
-        }
-        .login-container h2 {
-            margin-bottom: 30px;
-            color: white;
-        }
-        input {
-            width: 80%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            font-size: 16px;
-        }
-        button {
-            width: 60%;
-            padding: 10px;
-            background-color: #aed6f1;
-            border: none;
-            border-radius: 4px;
-            color: white;
-            font-size: 16px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #45a049;
-        }
-        .footer {
-            margin-top: 10px;
-            font-size: 14px;
-            color: white;
-        }
-        .footer a {
-            color: #5dade2;
-            text-decoration: none;
-        }
-        .footer a:hover {
-            text-decoration: underline;
-        }
-        .register-link {
-            margin-top: 20px;
-        }
-        /* Styling for the fixed footer button */
-        .next-button {
-            position: fixed;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: #3573b2;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 18px;
-        }
-        .next-button:hover {
-            background-color: #45a049;
-        }
-    </style>
+    <title>Home Page</title>
 </head>
-<body>
-
-<div class="login-container">
-    <h2>Login</h2>
-    <form action="#" method="POST">
-        <input type="text" name="username" placeholder="Username" required><br>
-        <input type="password" name="password" placeholder="Password" required><br>
-        <button type="submit">Login</button>
-    </form>
-    
-    <div class="register-link">
-        <p>Don't have an account? <a href="#">Register</a></p>
-    </div>
-</div>
-
-
-<a href="movie.html" class="next">NEXT</a>
-
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; text-align: center; background-color: #eef2f3;">
+    <header style="background-color: #2c3e50; color: white; padding: 20px; font-size: 28px; font-weight: bold;">
+        Welcome to Our Website
+    </header>
+    <nav style="background-color: #34495e; padding: 15px;">
+        <a href="#" style="color: white; text-decoration: none; margin: 0 20px; font-size: 18px;">Home</a>
+        <a href="#" style="color: white; text-decoration: none; margin: 0 20px; font-size: 18px;">About</a>
+        <a href="#" style="color: white; text-decoration: none; margin: 0 20px; font-size: 18px;">Services</a>
+        <a href="#" style="color: white; text-decoration: none; margin: 0 20px; font-size: 18px;">Contact</a>
+    </nav>
+    <section style="padding: 60px;">
+        <h1 style="color: #2c3e50; font-size: 36px;">Welcome to Our Home Page</h1>
+        <p style="color: #555; font-size: 18px; max-width: 800px; margin: auto;">We are excited to have you here. Explore our website to learn more about what we offer. We strive to provide the best services to our clients with dedication and excellence.</p>
+        <button style="padding: 15px 30px; font-size: 18px; background-color: #2980b9; color: white; border: none; cursor: pointer; border-radius: 5px; margin-top: 20px;">Get Started</button>
+    </section>
+    <footer style="background-color: #2c3e50; color: white; padding: 15px; position: fixed; bottom: 0; width: 100%; font-size: 14px;">
+        &copy; 2025 Your Website. All Rights Reserved. | Designed with ♥
+    </footer>
 </body>
 </html>
