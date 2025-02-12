@@ -1,26 +1,46 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Search and Details</title>
+</head>
 <body bgcolor="white">
-  <h1><span style = "color :blue;"><center> DETAILS !</center> </span></h1>
 
-<form><center>
-<label> Ph.NO: </label>
-<input type = "text">
-<br/>
-<br/>
-<br/>
-<label >NAME:</label>
-<input type = "text">
-<br/>
-<br/>
-<br/>
-<label> SURNAME : </label>
-<input type = "text">
-<br/>
-<br/>
-<br/>
-</center>
-</form>
-<center><button> <span style = "color : red ;">submit</span> </button></center>
+  <!-- Movie Search Section -->
+  <div style="background-color: #1eab74; text-align: center; padding: 20px;">
+    <div style="background-color: #221e2b; width: 50%; height: 70vh; margin: 0 auto; padding: 20px; color: #e6e4ee;">
+      <h1>Movie Search App</h1>
+      <p>Discover and explore your favorite movies like never before with our intuitive Movie Search App, your ultimate cinematic companion.</p>
+      <form>
+        <input type="text" placeholder="Search for movies..." style="padding: 10px; width: 60%; border-radius: 5px; border: 1px solid #ccc;">
+        <button type="submit" style="padding: 10px 20px; background-color: #e6e4ee; color: #221e2b; border: none; border-radius: 5px;">SEARCH</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Details Form Section -->
+  <div style="text-align: center; margin-top: 40px;">
+    <h1><span style="color: blue;">DETAILS!</span></h1>
+
+    <div style="width: 50%; margin: 0 auto; background-color: #f2f2f2; padding: 40px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+      <form>
+        <label for="phone" style="font-weight: bold;">Ph. NO:</label><br>
+        <input type="text" id="phone" name="phone" style="padding: 8px; width: 100%; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;"><br><br>
+
+        <label for="name" style="font-weight: bold;">NAME:</label><br>
+        <input type="text" id="name" name="name" style="padding: 8px; width: 100%; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;"><br><br>
+
+        <label for="surname" style="font-weight: bold;">SURNAME:</label><br>
+        <input type="text" id="surname" name="surname" style="padding: 8px; width: 100%; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;"><br><br>
+
+        <button type="submit" style="padding: 10px 20px; background-color: #e6e4ee; color: #221e2b; border: none; border-radius: 5px; cursor: pointer;"> 
+          <span style="color: red;">Submit</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
 </body>
-
 </html>
+
