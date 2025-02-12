@@ -1,23 +1,24 @@
-  <!-- Details Form Section -->
-  <div style="text-align: center; margin-top: 40px;">
+<!-- Details Form Section -->
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+  <div style="text-align: center; width: 50%; background-color: #f2f2f2; padding: 40px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
     <h1><span style="color: blue;">DETAILS!</span></h1>
+    <form>
+      <label for="email" style="font-weight: bold;">EMAIL:</label><br>
+      <input type="text" id="email" name="email" 
+             style="padding: 10px; width: 90%; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;"><br>
 
-    <div style="width: 50%; margin: 0 auto; background-color: #f2f2f2; padding: 40px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-      <form>
-        <label for="phone" style="font-weight: bold;">EMAIL:</label><br>
-        <input type="text" id="phone" name="phone" style="padding: 8px; width: 100%; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;"><br><br>
+      <label for="name" style="font-weight: bold;">NAME:</label><br>
+      <input type="text" id="name" name="name" 
+             style="padding: 10px; width: 90%; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;"><br>
 
-        <label for="name" style="font-weight: bold;">NAME:</label><br>
-        <input type="text" id="name" name="name" style="padding: 8px; width: 100%; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;"><br><br>
+      <label for="surname" style="font-weight: bold;">SURNAME:</label><br>
+      <input type="text" id="surname" name="surname" 
+             style="padding: 10px; width: 90%; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;"><br>
 
-        <label for="surname" style="font-weight: bold;">SURNAME:</label><br>
-        <input type="text" id="surname" name="surname" style="padding: 8px; width: 100%; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;"><br><br>
-
-        <button type="submit" style="padding: 10px 20px; background-color: #e6e4ee; color: #221e2b; border: none; border-radius: 5px; cursor: pointer;"> 
-          <span style="color: red;">Submit</span>
-        </button>
-      </form>
-    </div>
+      <button type="submit" 
+              style="padding: 12px 25px; background-color: #e6e4ee; color: #221e2b; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold;"> 
+        <span style="color: red;">Submit</span>
+      </button>
+    </form>
   </div>
-
-</body>
+</div>
