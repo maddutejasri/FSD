@@ -1,76 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Movie Search and Details</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search App</title>
 </head>
-<body bgcolor="white">
+<body style="margin: 0; padding: 0; background-color: #1eab74; display: flex; justify-content: center; align-items: center; height: 100vh;">
 
-  <!-- Movie Search Section -->
-  
-      <center>
-  
-          <h1 style="color:#e6e4ee;">Movie Search App</h1>
+    <div style="background-color: #221e2b; width: 50vw; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.3); text-align: center; color: #e6e4ee;">
         
-          <center style="color:#e6e4ee;">
-            Discover and explore your favorite movies like never before with our intuitive Movies
-            <br/> Search App, your ultimate cinematic companion
-          </center>
-<img src="Mufasa Lion King.jpg" alt="IRON MAN" width = "200"height = "200"  the align = "left" >
-          <br/>
-          
+        <h1>Movie Search App</h1>
+        <p style="font-size: 14px; margin-bottom: 20px;">
+            Discover and explore your favorite movies like never before with our intuitive Movie Search App, your ultimate cinematic companion.
+        </p>
+        
+        <img src="ironman.jpg" alt="IRON MAN" style="width: 150px; height: 150px; border-radius: 8px; margin-bottom: 15px;">
+        
+        <form>
+            <input type="text" placeholder="Search for movies..." 
+                   style="width: 80%; padding: 10px; font-size: 14px; border: none; border-radius: 5px; margin-bottom: 10px;">
+            
+            <button type="submit" style="padding: 10px 20px; background-color: #3498db; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-bottom: 15px;">
+                SEARCH
+            </button>
+        </form>
 
-          <form>
-            <center>
+        <h3 style="color: #3498db; margin-top: 10px;">PLOT:</h3>
+        <p style="font-size: 13px;">
+            Lost and alone, orphaned cub Mufasa meets a sympathetic lion named Taka, the heir to a royal bloodline. The chance meeting sets in motion an expansive journey of an extraordinary group of misfits searching for their destinies.
+        </p>
 
-              <input type="text" placeholder="Search for movies...">
-       
-              <button type="submit">SEARCH</button>
-          <h6 style="color:#3498db;">PLOT:</h6>
+        <h3 style="color: #3498db; margin-top: 10px;">CAST:</h3>  
+        <p style="font-size: 13px;">MAHESH BABU</p>
 
-
-<div style="flex: 2; color: #e6e4ee; font-size: 13px;">
-  <p>
-    Lost and alone, orphaned cub Mufasa meets a sympathetic lion named Taka, the heir to a royal bloodline. The chance meeting sets in motion an expansive journey of an extraordinary group of misfits searching for their destinies.
-  </p>
-</div>
-<h6 style="color:#3498db;">CAST:</h6>  
-<div style="flex: 2; color: #e6e4ee; font-size: 13px;">
-  <p>
-MAHESH BABU..  
-  </p>
-</div>
-
-<center><button type="button"><a href="a2.html">HOMEPAGE </button></a></center>
-
-            </center>
-          </form>
-        </div>
-      </center>
-    
-
-  <!-- Details Form Section -->
-  <div style="text-align: center; margin-top: 40px;">
-    <h1><span style="color: blue;">DETAILS!</span></h1>
-
-    <div style="width: 50%; margin: 0 auto; background-color: #f2f2f2; padding: 40px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-      <form>
-        <label for="phone" style="font-weight: bold;">Ph. NO:</label><br>
-        <input type="text" id="phone" name="phone" style="padding: 8px; width: 100%; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;"><br><br>
-
-        <label for="name" style="font-weight: bold;">NAME:</label><br>
-        <input type="text" id="name" name="name" style="padding: 8px; width: 100%; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;"><br><br>
-
-        <label for="surname" style="font-weight: bold;">SURNAME:</label><br>
-        <input type="text" id="surname" name="surname" style="padding: 8px; width: 100%; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc;"><br><br>
-
-        <button type="submit" style="padding: 10px 20px; background-color: #e6e4ee; color: #221e2b; border: none; border-radius: 5px; cursor: pointer;"> 
-          <span style="color: red;">Submit</span>
-        </button>
-      </form>
+        <a href="a2.html" style="text-decoration: none;">
+            <button type="button" style="padding: 10px 20px; background-color: #e74c3c; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
+                HOMEPAGE
+            </button>
+        </a>
     </div>
-  </div>
 
 </body>
 </html>
