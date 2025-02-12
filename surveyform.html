@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Survey Form</title>
+    <style>
+        /* Apply background color to the whole page */
+        body {
+            background-color: #f0f8ff; /* Light blue background color */
+            font-family: Arial, sans-serif; /* Font style for better readability */
+            text-align: center;
+        }
+
+        /* Style for the form container */
+        form {
+            background-color: #ffffff; /* White background for the form */
+            padding: 60px;
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow around the form */
+            width: 25%; /* Form width */
+            margin: 0 auto; /* Center the form */
+        }
+
+        /* Optional: Style for the submit button */
+        button {
+            background-color: #4CAF50; /* Green background */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+
+        /* Style for form labels and inputs */
+        label, input, textarea {
+            margin-bottom: 10px;
+        }
+
+        input[type="text"], input[type="number"], textarea {
+            padding: 8px;
+            width: 80%; /* Inputs take up 80% of the form width */
+            margin: 2px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        /* Style for radio buttons and checkboxes */
+        input[type="radio"], input[type="checkbox"] {
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<a href="">click here</a>
+      <img src="C:\Users\LAB2\Desktop\CIC-39\image2.jpg">
+    <h1>Survey Form</h1>
+    <p>Please answer the following questions:</p>
+
+    <form action="https://www.w3schools.com/""get">
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <label>How often do you use the internet?</label><br>
+        <input type="checkbox" id="daily" name="usage" value="Daily">
+        <label for="daily">Daily</label><br>
+        <input type="checkbox" id="weekly" name="usage" value="Weekly">
+        <label for="weekly">Weekly</label><br>
+        <input type="checkbox" id="rarely" name="usage" value="Rarely">
+        <label for="rarely">Rarely</label><br><br>
+
+        <label for="comments">Any additional comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Submit Survey</button>
+    </form>
+
+</body>
+</html>
